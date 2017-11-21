@@ -1,6 +1,6 @@
 require 'omniauth-oauth2'
 
-module OmniAuth
+module Omniauth
   module Strategies
     class Cgtrader < OmniAuth::Strategies::OAuth2
       option :name, :cgtrader
