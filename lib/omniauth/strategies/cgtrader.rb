@@ -6,9 +6,9 @@ module OmniAuth
       option :name, :cgtrader
 
       option :client_options,
-             site:          ENV.fetch('CGT_API_BASE'),
-             token_url:     "#{ENV.fetch('CGT_URL')}/oauth/token",
-             authorize_url: "#{ENV.fetch('CGT_URL')}/oauth/authorize"
+             site:          'https://api.cgtrader.com',
+             token_url:     'https://www.cgtrader.com/oauth/token',
+             authorize_url: 'https://www.cgtrader.com/oauth/authorize'
 
       uid do
         raw_info['id']
