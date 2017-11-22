@@ -2,7 +2,8 @@ PATH
   remote: .
   specs:
     omniauth-cgtrader (0.1.0)
-      omniauth-oauth2 (~> 1.2)
+      omniauth (~> 1.1)
+      omniauth-oauth2 (>= 1.1.1, < 2.0)
 
 GEM
   remote: https://rubygems.org/

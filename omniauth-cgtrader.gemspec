@@ -5,7 +5,7 @@ require "omniauth/cgtrader/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "omniauth-cgtrader"
-  spec.version       = Omniauth::Cgtrader::VERSION
+  spec.version       = OmniAuth::Cgtrader::VERSION
   spec.authors       = ["devaudrius"]
   spec.email         = ["audrius@cgtrader.com"]
 
@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'omniauth', '~> 1.1'
   spec.add_dependency 'omniauth-oauth2', '>= 1.1.1', '< 2.0'
-  
+
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"

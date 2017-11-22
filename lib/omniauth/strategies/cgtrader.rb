@@ -1,14 +1,12 @@
 require 'omniauth-oauth2'
 
-module Omniauth
+module OmniAuth
   module Strategies
     class Cgtrader < OmniAuth::Strategies::OAuth2
-      option :name, :cgtrader
-
       option :client_options,
-             site:          ENV.fetch('CGT_API_BASE'),
-             token_url:     "#{ENV.fetch('CGT_URL')}/oauth/token",
-             authorize_url: "#{ENV.fetch('CGT_URL')}/oauth/authorize"
+             site:          ENV['CGT_API_BASE'],
+             token_url:     "#{ENV['CGT_URL']}/oauth/token",
+             authorize_url: "#{ENV['CGT_URL']}/oauth/authorize"
 
       uid do
         raw_info['id']
