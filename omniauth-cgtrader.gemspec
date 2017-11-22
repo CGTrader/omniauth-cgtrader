@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "omniauth/cgtrader/version"
+require "cgtrader/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "omniauth-cgtrader"
-  spec.version       = OmniAuth::Cgtrader::VERSION
+  spec.version       = Omniauth::Cgtrader::VERSION
   spec.authors       = ["devaudrius"]
   spec.email         = ["audrius@cgtrader.com"]
 

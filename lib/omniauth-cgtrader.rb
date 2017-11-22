@@ -1,2 +1,2 @@
-require 'omniauth/cgtrader/version'
+require 'cgtrader/version'
 require 'omniauth/strategies/cgtrader'
