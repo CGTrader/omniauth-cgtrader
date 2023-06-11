@@ -5,8 +5,8 @@ require 'cgtrader/version'
 Gem::Specification.new do |spec|
   spec.name          = 'omniauth-cgtrader'
   spec.version       = Omniauth::Cgtrader::VERSION
-  spec.authors       = ['devaudrius']
-  spec.email         = ['audrius@cgtrader.com']
+  spec.authors       = ['devaudrius, mihkelal']
+  spec.email         = ['audrius@cgtrader.com, mihkelal@cgtrader.com']
 
   spec.summary       = 'CGTrader OAuth2 Strategy for OmniAuth'
   spec.homepage      = 'https://github.com/CGTrader/cgtrader-omniauth'
