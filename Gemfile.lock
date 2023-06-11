@@ -33,8 +33,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.17)
+  bundler (~> 2.4.13)
   omniauth-cgtrader!
 
 BUNDLED WITH
-   1.17.3
+   2.4.13

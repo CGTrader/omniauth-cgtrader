@@ -21,5 +21,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'omniauth', '~> 1.9'
   spec.add_dependency 'omniauth-oauth2', '~> 1.6'
 
-  spec.add_development_dependency 'bundler', '~> 1.17'
+  spec.add_development_dependency 'bundler', '~> 2.4.13'
 end
