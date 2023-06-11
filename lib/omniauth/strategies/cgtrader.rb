@@ -4,9 +4,9 @@ module OmniAuth
   module Strategies
     class Cgtrader < OmniAuth::Strategies::OAuth2
       option :client_options,
-             site:          ENV['CGT_API_BASE'],
-             token_url:     "#{ENV['CGT_URL']}/oauth/token",
-             authorize_url: "#{ENV['CGT_URL']}/oauth/authorize"
+             site: 'https://api.cgtrader.com',
+             token_url: 'https://www.cgtrader.com/oauth/token',
+             authorize_url: 'https://www.cgtrader.com/oauth/authorize'
 
       uid do
         raw_info['id']
@@ -15,7 +15,9 @@ module OmniAuth
       info do
         {
           username: raw_info['username'],
-          email:    raw_info['email']
+          email: raw_info['email'],
+          is_admin: raw_info['is_admin'],
+          avatar_url: raw_info['avatar_url']
         }
       end
 
