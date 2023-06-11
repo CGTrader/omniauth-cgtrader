@@ -7,7 +7,7 @@
 - Deleted unused travis.yml file ([commit](https://github.com/CGTrader/omniauth-cgtrader/commit/54ca91a44b66e382212b0c73d425374184b31ae7)).
 - Deleted unused .rspec file ([commit](https://github.com/CGTrader/omniauth-cgtrader/commit/971b1d5bcfaa7510b173d090b7bc6a72bdffba17)).
 - Added missing `frozen_string_literal: true`s ([commit](https://github.com/CGTrader/omniauth-cgtrader/commit/79fea31423690787f1835853cc1cddc70ab9f6d6)).
-
+- Deleted github `git_source` from Gemfile ([#5](https://github.com/CGTrader/omniauth-cgtrader/pull/5)).
 
 ## [1.0.0] - 2020-06-01
 
