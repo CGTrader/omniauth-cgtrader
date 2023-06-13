@@ -1,3 +1,9 @@
+## [Unreleased]
+
+### Changed
+
+- Updated `omniauth-oauth2` dependency ([#6](https://github.com/CGTrader/omniauth-cgtrader/pull/6)).
+
 ## [1.0.1] - 2023-06-13
 
 ### Chore
