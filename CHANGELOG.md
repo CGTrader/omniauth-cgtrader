@@ -1,3 +1,9 @@
+## [Unreleased]
+
+### Chore
+
+- Updated README.md ([commit](https://github.com/CGTrader/omniauth-cgtrader/commit/b1b7850b66661be3b9e13fa2ec39b629b8f259af)).
+
 ## [2.0.0] - 2023-06-13
 
 ### Changed
