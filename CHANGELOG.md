@@ -1,3 +1,9 @@
+## [Unreleased]
+
+### Chore
+
+- Updated gemspec ([commit](https://github.com/CGTrader/omniauth-cgtrader/commit/13aae9cb45f0a821c248cf435c96c9941ebea607)).
+
 ## [2.0.1] - 2023-07-24
 
 ### Chore
